@@ -1,0 +1,46 @@
+{
+    "trading_bot_module": {
+        "name": "Trading Bot",
+        "status": "disabled",
+        "menu_search": [
+            {
+                "term": "Trading Bots",
+                "column": "label"
+            }
+        ],
+        "description": "Allows automated trading through administrator-managed or strategy-based bots. Users can deploy bots to execute trades continuously based on predefined market strategies."
+    },
+    "file_manager_module": {
+        "name": "File Manager",
+        "status": "enabled",
+        "menu_search": [
+            {
+                "term": "File Manager",
+                "column": "label"
+            }
+        ],
+        "description": "Enables secure server-side file management for administrators, including file upload, code editing, archiving, extraction, and directory management within the platform environment."
+    },
+    "kyc_module": {
+        "name": "KYC",
+        "status": "enabled",
+        "menu_search": [
+            {
+                "term": "KYC",
+                "column": "label"
+            }
+        ],
+        "description": "Provides identity verification workflows for user onboarding, document review, and compliance management."
+    },
+    "copy_trading_module": {
+        "name": "Copy Trading",
+        "status": "enabled",
+        "menu_search": [
+            {
+                "term": "Copy Trading",
+                "column": "label"
+            }
+        ],
+        "description": "Enables copy trading for users."
+    }
+}

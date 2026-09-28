@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="84" height="84" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Golden Mean Horizon -->
+  <line x1="18" y1="50" x2="82" y2="50" stroke="#0F172A" stroke-width="2.5" stroke-dasharray="4,2"/>
+  <!-- Standard Deviation Envelope (Upper & Lower) -->
+  <path d="M20 30 C35 24 65 24 80 30" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+  <path d="M20 70 C35 76 65 76 80 70" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+  <!-- Sine Wave Oscillation Crossing the Mean -->
+  <path d="M20 50 Q 32 18, 44 50 T 68 50 T 82 50" fill="none" stroke="#6366F1" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Elastic Reversion Pull Vector (Arrows snapping back to mean) -->
+  <path d="M32 24 L32 42" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="32,46 29,40 35,40" fill="#EF4444"/>
+  <path d="M56 76 L56 58" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="56,54 53,60 59,60" fill="#10B981"/>
+  <!-- Reversion Nodes -->
+  <circle cx="32" cy="24" r="4.5" fill="#EF4444"/>
+  <circle cx="56" cy="76" r="4.5" fill="#10B981"/>
+</svg>

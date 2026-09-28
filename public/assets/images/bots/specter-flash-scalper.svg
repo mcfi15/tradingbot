@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="84" height="84" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Micro Scalper Candlesticks -->
+  <line x1="26" y1="36" x2="26" y2="72" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="22" y="44" width="8" height="18" rx="2" fill="#8B5CF6"/>
+  <line x1="74" y1="24" x2="74" y2="60" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="70" y="30" width="8" height="20" rx="2" fill="#F59E0B"/>
+  <!-- High-Frequency Lightning Strike (Flash Scalp) -->
+  <polygon points="56,16 34,48 48,48 40,84 68,44 52,44" fill="#F59E0B" stroke="#D97706" stroke-width="1.5"/>
+  <!-- Core Pulse Glow -->
+  <circle cx="50" cy="46" r="3" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,46 @@
+@theme {
+    --color-primary-dark: #030303;
+    /* Deepest obsidian black background */
+    --color-secondary-dark: rgba(20, 20, 25, 0.4);
+    /* Frosted dark glass container */
+    --color-border-primary: rgba(255, 255, 255, 0.06);
+    /* Frosted glass border outline */
+
+    /* Premium Accents */
+    --color-accent-primary: #e2b13c;
+    /* Luxury liquid gold */
+    --color-accent-secondary: #10b981;
+    /* Premium emerald green */
+    --color-accent-glow: rgba(226, 177, 60, 0.12);
+    /* Warm gold ambient glow */
+
+    --color-text-primary: #f8fafc;
+    /* Slate 50 */
+    --color-text-secondary: #94a3b8;
+    /* Slate 400 */
+    --color-success: #10b981;
+    /* Emerald 500 */
+    --color-warning: #f59e0b;
+    /* Amber 500 */
+    --color-info: #3b82f6;
+    /* Blue 500 */
+    --color-error: #ef4444;
+    /* Red 500 */
+
+    /* Premium Font Stack */
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Global Button Cursor Pointer */
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+[role='button'] {
+    cursor: pointer;
+}

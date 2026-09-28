@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="84" height="84" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Chronos Time Dial Outer -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="50" cy="50" r="2" fill="#0F172A"/>
+  <!-- Harmonic Wave / Sine Cycle Line -->
+  <path d="M22 50 Q 36 20, 50 50 T 78 50" fill="none" stroke="#D97706" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Clock / Cycle Ticks -->
+  <line x1="50" y1="22" x2="50" y2="26" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="78" y1="50" x2="74" y2="50" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="78" x2="50" y2="74" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="22" y1="50" x2="26" y2="50" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Harmonic Execution Markers -->
+  <circle cx="36" cy="35" r="4.5" fill="#F59E0B"/>
+  <circle cx="64" cy="65" r="4.5" fill="#10B981"/>
+  <!-- Central Dial Hand -->
+  <line x1="50" y1="50" x2="62" y2="34" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
